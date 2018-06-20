@@ -1,5 +1,4 @@
 {
-
   "description": "An extension providing Stoicism philosophy quotes on new tabs",
   "manifest_version": 2,
   "name": "Stoikk",
@@ -13,7 +12,8 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"]
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["stoikk.js"]
     }
   ]
 
