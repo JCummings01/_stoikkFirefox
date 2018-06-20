@@ -1,8 +1,9 @@
 {
-  "description": "An extension providing Stoicism philosophy quotes on new tabs",
+  
   "manifest_version": 2,
   "name": "Stoikk",
   "version": "1.0",
+  "description": "An extension providing Stoicism philosophy quotes on new tabs",
   "homepage_url": "https://stoikk.com",
   "icons": {
     "48": "icons/border-48.png"
