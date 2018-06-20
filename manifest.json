@@ -1,0 +1,20 @@
+{
+
+  "description": "An extension providing Stoicism philosophy quotes on new tabs",
+  "manifest_version": 2,
+  "name": "Stoikk",
+  "version": "1.0",
+  "homepage_url": "https://stoikk.com",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "chrome_url_overrides": {
+		"newtab": "newTab.xhtml"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"]
+    }
+  ]
+
+}
